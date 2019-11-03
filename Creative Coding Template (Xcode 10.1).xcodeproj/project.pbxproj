@@ -3,25 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44F3D8D637B5E7E907E5F61A /* Pods_Creative_Coding_Template__Xcode_10_1_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40EEA4949FA93648E274645 /* Pods_Creative_Coding_Template__Xcode_10_1_.framework */; };
+		51B1D6A0236F6CBD00CE5D03 /* MicInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B1D69D236F6CBC00CE5D03 /* MicInput.swift */; };
+		51B1D6A1236F6CBD00CE5D03 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B1D69E236F6CBC00CE5D03 /* Utils.swift */; };
+		51B1D6A2236F6CBD00CE5D03 /* UpdateCanvasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B1D69F236F6CBC00CE5D03 /* UpdateCanvasController.swift */; };
+		51B1D6A5236F6D1B00CE5D03 /* WorkSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B1D6A4236F6D1B00CE5D03 /* WorkSpace.swift */; };
 		51F59783236F6C1A00E07EF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F59782236F6C1A00E07EF9 /* AppDelegate.swift */; };
-		51F59785236F6C1A00E07EF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F59784236F6C1A00E07EF9 /* ViewController.swift */; };
 		51F59788236F6C1A00E07EF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F59786236F6C1A00E07EF9 /* Main.storyboard */; };
 		51F5978A236F6C1B00E07EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F59789236F6C1B00E07EF9 /* Assets.xcassets */; };
 		51F5978D236F6C1B00E07EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F5978B236F6C1B00E07EF9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BFF9CE4B26669D35AA75EB6 /* Pods-Creative Coding Template (Xcode 10.1).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Creative Coding Template (Xcode 10.1).debug.xcconfig"; path = "Target Support Files/Pods-Creative Coding Template (Xcode 10.1)/Pods-Creative Coding Template (Xcode 10.1).debug.xcconfig"; sourceTree = "<group>"; };
+		2D2C1296C3F7DC8975F102DF /* Pods-Creative Coding Template (Xcode 10.1).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Creative Coding Template (Xcode 10.1).release.xcconfig"; path = "Target Support Files/Pods-Creative Coding Template (Xcode 10.1)/Pods-Creative Coding Template (Xcode 10.1).release.xcconfig"; sourceTree = "<group>"; };
+		51B1D69D236F6CBC00CE5D03 /* MicInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicInput.swift; sourceTree = "<group>"; };
+		51B1D69E236F6CBC00CE5D03 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		51B1D69F236F6CBC00CE5D03 /* UpdateCanvasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateCanvasController.swift; sourceTree = "<group>"; };
+		51B1D6A4236F6D1B00CE5D03 /* WorkSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkSpace.swift; sourceTree = "<group>"; };
 		51F5977F236F6C1A00E07EF9 /* Creative Coding Template (Xcode 10.1).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creative Coding Template (Xcode 10.1).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F59782236F6C1A00E07EF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51F59784236F6C1A00E07EF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51F59787236F6C1A00E07EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51F59789236F6C1B00E07EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51F5978C236F6C1B00E07EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51F5978E236F6C1B00E07EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40EEA4949FA93648E274645 /* Pods_Creative_Coding_Template__Xcode_10_1_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Creative_Coding_Template__Xcode_10_1_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F3D8D637B5E7E907E5F61A /* Pods_Creative_Coding_Template__Xcode_10_1_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51B1D6A3236F6CDD00CE5D03 /* C4 Customizations */ = {
+			isa = PBXGroup;
+			children = (
+				51B1D69D236F6CBC00CE5D03 /* MicInput.swift */,
+				51B1D69F236F6CBC00CE5D03 /* UpdateCanvasController.swift */,
+				51B1D69E236F6CBC00CE5D03 /* Utils.swift */,
+			);
+			path = "C4 Customizations";
+			sourceTree = "<group>";
+		};
 		51F59776236F6C1900E07EF9 = {
 			isa = PBXGroup;
 			children = (
 				51F59781236F6C1A00E07EF9 /* Creative Coding Template (Xcode 10.1) */,
 				51F59780236F6C1A00E07EF9 /* Products */,
+				73AF79A9C63FDCF451FCC692 /* Pods */,
+				DC93F1EA11605E28BFCDD7FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +78,31 @@
 			isa = PBXGroup;
 			children = (
 				51F59782236F6C1A00E07EF9 /* AppDelegate.swift */,
-				51F59784236F6C1A00E07EF9 /* ViewController.swift */,
+				51B1D6A4236F6D1B00CE5D03 /* WorkSpace.swift */,
 				51F59786236F6C1A00E07EF9 /* Main.storyboard */,
+				51B1D6A3236F6CDD00CE5D03 /* C4 Customizations */,
 				51F59789236F6C1B00E07EF9 /* Assets.xcassets */,
 				51F5978B236F6C1B00E07EF9 /* LaunchScreen.storyboard */,
 				51F5978E236F6C1B00E07EF9 /* Info.plist */,
 			);
 			path = "Creative Coding Template (Xcode 10.1)";
+			sourceTree = "<group>";
+		};
+		73AF79A9C63FDCF451FCC692 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BFF9CE4B26669D35AA75EB6 /* Pods-Creative Coding Template (Xcode 10.1).debug.xcconfig */,
+				2D2C1296C3F7DC8975F102DF /* Pods-Creative Coding Template (Xcode 10.1).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC93F1EA11605E28BFCDD7FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F40EEA4949FA93648E274645 /* Pods_Creative_Coding_Template__Xcode_10_1_.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51F59791236F6C1B00E07EF9 /* Build configuration list for PBXNativeTarget "Creative Coding Template (Xcode 10.1)" */;
 			buildPhases = (
+				9BDCF1E9E6D90FD5EB3723B7 /* [CP] Check Pods Manifest.lock */,
 				51F5977B236F6C1A00E07EF9 /* Sources */,
 				51F5977C236F6C1A00E07EF9 /* Frameworks */,
 				51F5977D236F6C1A00E07EF9 /* Resources */,
+				6DAAACECD4691CAB2B245172 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +173,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6DAAACECD4691CAB2B245172 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Creative Coding Template (Xcode 10.1)/Pods-Creative Coding Template (Xcode 10.1)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Creative Coding Template (Xcode 10.1)/Pods-Creative Coding Template (Xcode 10.1)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Creative Coding Template (Xcode 10.1)/Pods-Creative Coding Template (Xcode 10.1)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BDCF1E9E6D90FD5EB3723B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Creative Coding Template (Xcode 10.1)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51F5977B236F6C1A00E07EF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51F59785236F6C1A00E07EF9 /* ViewController.swift in Sources */,
+				51B1D6A0236F6CBD00CE5D03 /* MicInput.swift in Sources */,
+				51B1D6A2236F6CBD00CE5D03 /* UpdateCanvasController.swift in Sources */,
 				51F59783236F6C1A00E07EF9 /* AppDelegate.swift in Sources */,
+				51B1D6A1236F6CBD00CE5D03 /* Utils.swift in Sources */,
+				51B1D6A5236F6D1B00CE5D03 /* WorkSpace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +368,11 @@
 		};
 		51F59792236F6C1B00E07EF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BFF9CE4B26669D35AA75EB6 /* Pods-Creative Coding Template (Xcode 10.1).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2LTFKU9364;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Creative Coding Template (Xcode 10.1)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,17 +380,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pcc.Creative-Coding-Template--Xcode-10-1-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		51F59793236F6C1B00E07EF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2C1296C3F7DC8975F102DF /* Pods-Creative Coding Template (Xcode 10.1).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2LTFKU9364;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Creative Coding Template (Xcode 10.1)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,7 +399,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pcc.Creative-Coding-Template--Xcode-10-1-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
